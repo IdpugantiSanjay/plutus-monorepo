@@ -1,0 +1,19 @@
+{
+  "name": "@plutus/api",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": "Sanjay Idpuganti",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node dist/index.js",
+    "compile": "tsc -b ."
+  },
+  "dependencies": {
+    "@plutus/types": "^1.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
